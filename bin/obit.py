@@ -145,10 +145,7 @@ def main():
   time.sleep(1)
   status = send_command_to_rdj(url, {'auth':config.get('obit', 'radiodj_passwd'), 'command':'PlayPlaylistTrack', 'arg':0}, logger)
 
-#sleep x seconds
-#LoadPlaylist 'Playlist ID as argument
-#PlayFromIntro
-##+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #---------------------------------------------------------------------------
 if __name__ == "__main__":
 #    exit()
